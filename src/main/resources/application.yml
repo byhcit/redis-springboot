@@ -1,0 +1,8 @@
+spring:
+  data:
+    redis:
+      password: 123456
+      timeout: 5000
+      sentinel:
+        master: mymaster
+        nodes: 192.168.19.129:26379
